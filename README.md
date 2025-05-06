@@ -19,8 +19,6 @@ This project involves analyzing a fictional pizza sales database for a pizza del
 
 - **SQL (MySQL)**
 - DB Browser for SQLite / MySQL Workbench (or any other SQL tool)
-- Optional: Excel / Power BI / Tableau (for visualizations)
-
 ---
 
 ## 📁 Dataset Structure
@@ -28,14 +26,19 @@ This project involves analyzing a fictional pizza sales database for a pizza del
 The database consists of the following tables:
 
 | Table Name     | Description                                      |
+
 |----------------|--------------------------------------------------|
 | `orders`       | Order-level info (timestamps, order_id)         |
 | `order_details`| Items in each order (pizza_id, quantity)        |
 | `pizzas`       | Pizza size, price, pizza_type_id                |
 | `pizza_types`  | Name, category (Veg/Non-Veg), ingredients       |
 
-Data is stored in the `` folder (mock or public dataset).
 
+Data is stored in the `1 . [pizzas.csv](https://github.com/user-attachments/files/20069292/pizzas.csv)
+                       2 . [pizza_types.csv](https://github.com/user-attachments/files/20069408/pizza_types.csv)
+                       3 . [orders.csv](https://github.com/user-attachments/files/20069444/orders.csv)
+                       4 . [order_details.csv](https://github.com/user-attachments/files/20069456/order_details.csv)
+                       
 ---
 
 ## 🔍 Key Insights & Queries
@@ -46,7 +49,7 @@ Data is stored in the `` folder (mock or public dataset).
 - `avg_order_per_day.sql` – Average number of pizzas ordered per day
 
 
-Each query is documented in the `/SQL` folder with comments.
+Each query is documented in the `/sql` folder with comments.
 
 --
 
