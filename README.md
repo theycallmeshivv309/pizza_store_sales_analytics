@@ -85,7 +85,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ## 🧑‍💻 Author
 
-**Your Name**  
+**shivam shrivastava**  
 [GitHub Profile](https://github.com/theycallmeshivv309)  
 *Aspiring Data Analyst | B.Tech IT Student | Learning SQL & Data Analytics*
 
